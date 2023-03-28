@@ -1,0 +1,38 @@
+body {
+  background-color: #000;
+}
+.time{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+.stopwatch-time {
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+}
+
+.stopwatch-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch-buttons button {
+  margin: 20px;
+  border: 2px;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.stopwatch-buttons button:first-child {
+  background-color: green;
+}
+
+.stopwatch-buttons button:last-child {
+  background-color: red;
+}
